@@ -13,6 +13,11 @@
 		4C26DEAF1FA88E6F00702981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C26DEAE1FA88E6F00702981 /* Assets.xcassets */; };
 		4C26DEB21FA88E6F00702981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C26DEB01FA88E6F00702981 /* LaunchScreen.storyboard */; };
 		4C26DEB51FA88E6F00702981 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C26DEB41FA88E6F00702981 /* main.m */; };
+		4C26DED61FA88E9300702981 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C26DECD1FA88E9300702981 /* NSObject+SXRuntime.m */; };
+		4C26DEDA1FA88E9300702981 /* UIViewController+BarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C26DED51FA88E9300702981 /* UIViewController+BarButton.m */; };
+		4C26DEDD1FA88F6300702981 /* ZTNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C26DEDC1FA88F6300702981 /* ZTNavigationViewController.m */; };
+		4CC23EB51FA9643600382907 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC23EB41FA9643600382907 /* UINavigation+SXFixSpace.m */; };
+		4CC23EB91FA965F700382907 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC23EB81FA965F700382907 /* UINavigationController+SXFullScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		4C26DEB11FA88E6F00702981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C26DEB31FA88E6F00702981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C26DEB41FA88E6F00702981 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C26DECC1FA88E9300702981 /* NSObject+SXRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SXRuntime.h"; sourceTree = "<group>"; };
+		4C26DECD1FA88E9300702981 /* NSObject+SXRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SXRuntime.m"; sourceTree = "<group>"; };
+		4C26DED41FA88E9300702981 /* UIViewController+BarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BarButton.h"; sourceTree = "<group>"; };
+		4C26DED51FA88E9300702981 /* UIViewController+BarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BarButton.m"; sourceTree = "<group>"; };
+		4C26DEDB1FA88F6300702981 /* ZTNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTNavigationViewController.h; sourceTree = "<group>"; };
+		4C26DEDC1FA88F6300702981 /* ZTNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTNavigationViewController.m; sourceTree = "<group>"; };
+		4CC23EB31FA9643600382907 /* UINavigation+SXFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigation+SXFixSpace.h"; sourceTree = "<group>"; };
+		4CC23EB41FA9643600382907 /* UINavigation+SXFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigation+SXFixSpace.m"; sourceTree = "<group>"; };
+		4CC23EB71FA965F600382907 /* UINavigationController+SXFullScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SXFullScreen.h"; sourceTree = "<group>"; };
+		4CC23EB81FA965F700382907 /* UINavigationController+SXFullScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SXFullScreen.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +73,13 @@
 		4C26DEA41FA88E6F00702981 /* ZTNavigationItem */ = {
 			isa = PBXGroup;
 			children = (
+				4C26DECB1FA88E9300702981 /* UIViewController+UINavigation */,
 				4C26DEA51FA88E6F00702981 /* AppDelegate.h */,
 				4C26DEA61FA88E6F00702981 /* AppDelegate.m */,
 				4C26DEA81FA88E6F00702981 /* ViewController.h */,
 				4C26DEA91FA88E6F00702981 /* ViewController.m */,
+				4C26DEDB1FA88F6300702981 /* ZTNavigationViewController.h */,
+				4C26DEDC1FA88F6300702981 /* ZTNavigationViewController.m */,
 				4C26DEAB1FA88E6F00702981 /* Main.storyboard */,
 				4C26DEAE1FA88E6F00702981 /* Assets.xcassets */,
 				4C26DEB01FA88E6F00702981 /* LaunchScreen.storyboard */,
@@ -69,6 +87,21 @@
 				4C26DEB41FA88E6F00702981 /* main.m */,
 			);
 			path = ZTNavigationItem;
+			sourceTree = "<group>";
+		};
+		4C26DECB1FA88E9300702981 /* UIViewController+UINavigation */ = {
+			isa = PBXGroup;
+			children = (
+				4C26DECC1FA88E9300702981 /* NSObject+SXRuntime.h */,
+				4C26DECD1FA88E9300702981 /* NSObject+SXRuntime.m */,
+				4CC23EB31FA9643600382907 /* UINavigation+SXFixSpace.h */,
+				4CC23EB41FA9643600382907 /* UINavigation+SXFixSpace.m */,
+				4CC23EB71FA965F600382907 /* UINavigationController+SXFullScreen.h */,
+				4CC23EB81FA965F700382907 /* UINavigationController+SXFullScreen.m */,
+				4C26DED41FA88E9300702981 /* UIViewController+BarButton.h */,
+				4C26DED51FA88E9300702981 /* UIViewController+BarButton.m */,
+			);
+			path = "UIViewController+UINavigation";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +175,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C26DEDA1FA88E9300702981 /* UIViewController+BarButton.m in Sources */,
+				4CC23EB51FA9643600382907 /* UINavigation+SXFixSpace.m in Sources */,
 				4C26DEAA1FA88E6F00702981 /* ViewController.m in Sources */,
+				4CC23EB91FA965F700382907 /* UINavigationController+SXFullScreen.m in Sources */,
+				4C26DEDD1FA88F6300702981 /* ZTNavigationViewController.m in Sources */,
+				4C26DED61FA88E9300702981 /* NSObject+SXRuntime.m in Sources */,
 				4C26DEB51FA88E6F00702981 /* main.m in Sources */,
 				4C26DEA71FA88E6F00702981 /* AppDelegate.m in Sources */,
 			);
