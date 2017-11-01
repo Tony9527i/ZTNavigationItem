@@ -18,7 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    //1、使用方法如下，因为我设置了所有二级页面左侧按钮为返回，所以这一行注释掉。如果在二级页面需要改变左侧按钮及点击事件，直接打开注释就可以了
+    
+    //1、左侧item:因为我设置了所有二级页面左侧按钮为返回，所以这一行注释掉。
+    //如果在二级页面需要改变左侧按钮及点击事件，直接调用以下方法即可。具体位置调整,可以去方法里更改UIEdgeInsetsMake()
     //[self addLeftBarButtonWithImage:[UIImage imageNamed:@"聚会点赞红色"] action:@selector(leftBarbuttonAction)];
     
     //2、右侧两个item
