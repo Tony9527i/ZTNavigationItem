@@ -13,6 +13,5 @@ iOS11导航栏item适配
 
 //3、右侧四个item
 //[self addRightFourBarButtonsWithFirstImage:[UIImage imageNamed:@"聚会点赞红色"] firstAction:@selector(rightFirstBarbuttonAction) secondImage:[UIImage imageNamed:@"聚会点赞红色"] secondAction:@selector(rightFirstBarbuttonAction) thirdImage:[UIImage imageNamed:@"聚会点赞红色"] thirdAction:@selector(rightFirstBarbuttonAction) fourthImage:[UIImage imageNamed:@"聚会点赞红色"] fourthAction:@selector(rightFirstBarbuttonAction)];
-=======
-具体使用方法见ViewController
->>>>>>> 8bcca3da5a812e376a73b425cae9f1bf54c6cc65
+
+
