@@ -17,7 +17,6 @@
 		4C26DEDA1FA88E9300702981 /* UIViewController+BarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C26DED51FA88E9300702981 /* UIViewController+BarButton.m */; };
 		4C26DEDD1FA88F6300702981 /* ZTNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C26DEDC1FA88F6300702981 /* ZTNavigationViewController.m */; };
 		4CC23EB51FA9643600382907 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC23EB41FA9643600382907 /* UINavigation+SXFixSpace.m */; };
-		4CC23EB91FA965F700382907 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC23EB81FA965F700382907 /* UINavigationController+SXFullScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,8 +38,6 @@
 		4C26DEDC1FA88F6300702981 /* ZTNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTNavigationViewController.m; sourceTree = "<group>"; };
 		4CC23EB31FA9643600382907 /* UINavigation+SXFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigation+SXFixSpace.h"; sourceTree = "<group>"; };
 		4CC23EB41FA9643600382907 /* UINavigation+SXFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigation+SXFixSpace.m"; sourceTree = "<group>"; };
-		4CC23EB71FA965F600382907 /* UINavigationController+SXFullScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SXFullScreen.h"; sourceTree = "<group>"; };
-		4CC23EB81FA965F700382907 /* UINavigationController+SXFullScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SXFullScreen.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +93,6 @@
 				4C26DECD1FA88E9300702981 /* NSObject+SXRuntime.m */,
 				4CC23EB31FA9643600382907 /* UINavigation+SXFixSpace.h */,
 				4CC23EB41FA9643600382907 /* UINavigation+SXFixSpace.m */,
-				4CC23EB71FA965F600382907 /* UINavigationController+SXFullScreen.h */,
-				4CC23EB81FA965F700382907 /* UINavigationController+SXFullScreen.m */,
 				4C26DED41FA88E9300702981 /* UIViewController+BarButton.h */,
 				4C26DED51FA88E9300702981 /* UIViewController+BarButton.m */,
 			);
@@ -178,7 +173,6 @@
 				4C26DEDA1FA88E9300702981 /* UIViewController+BarButton.m in Sources */,
 				4CC23EB51FA9643600382907 /* UINavigation+SXFixSpace.m in Sources */,
 				4C26DEAA1FA88E6F00702981 /* ViewController.m in Sources */,
-				4CC23EB91FA965F700382907 /* UINavigationController+SXFullScreen.m in Sources */,
 				4C26DEDD1FA88F6300702981 /* ZTNavigationViewController.m in Sources */,
 				4C26DED61FA88E9300702981 /* NSObject+SXRuntime.m in Sources */,
 				4C26DEB51FA88E6F00702981 /* main.m in Sources */,
